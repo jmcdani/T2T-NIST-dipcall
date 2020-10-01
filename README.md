@@ -57,3 +57,8 @@ To generate alignment and variant call output with Dipcall a Snakemake pipeline 
   - Dipcall file LN 40 modified (my $mm2_opt = q/-xasm5 -z200000,10000 --cs -r2k -t$(N_THREADS)/;) 
     for better mapping to MHC, all other parameters are original default parameters for Dipcall.
     More information on Dipcall modification can be found here: https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/benchmark_variant_callset/MHCv1.0/assembly
+
+--------------------------
+INTERNAL NIST NOTE
+--------------------------
+All alignments performed as part of this project, but not neccessarily described in this repo, can be found on the NAS and further information in the GIAB Team OneNote /Benchmarking/Benchmarking and Benchmarkdown/T2T variant calling
