@@ -32,11 +32,11 @@ DATA & FILE OVERVIEW
 
 - Output files can be found at Globus T2T Finishing Workshop /team-variants/assembly_aligns/dipcall/  Outputs used for analysis include: *.dip.vcf.gz, *.dip.bed, *.hap1.bam and *.hap2.bam. If assembly was haploid, the haploid assembly would be used for both paternal and maternal haplotypes as input for dipcall. In this case only one hap.bam is needed as hap1.bam and hap2.bam would be the same. 
 
-- Directory `src/` contains source code for Dipcall.
+- Directory contains source code for Dipcall: `src/`
 
-	- run-dipcall contains modified LN40
+	- `run-dipcall` contains modified LN40
 	
-	- run-dipcall-original contains original Dipcall parameters
+	- `run-dipcall-original` contains original Dipcall parameters
 
 --------------------------
 METHODOLOGICAL INFORMATION
