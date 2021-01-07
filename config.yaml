@@ -2,6 +2,6 @@
 assemblies: samples.tsv
 
 #### Pipeline tool dependency files
-## dipcall
-par: "src/dipcall.kit/hs38.PAR.bed"
+## dipcall-- choose correct PAR file for reference
+#par: "src/dipcall.kit/hs38.PAR.bed"
 #par: "src/dipcall.kit/hs37d5.PAR.bed"

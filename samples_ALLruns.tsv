@@ -16,3 +16,8 @@ chm13.202000921_with38Y-align2-GRCh38	assemblies/chm13_20200921/t2t-chm13.202009
 GRCh38-align2-chm13.20200921.withGRCh38chrY	assemblies/GRCh38/GRCh38.fa	assemblies/GRCh38/GRCh38.fa	haploid	male	resources/t2t-chm13.20200921.withGRCh38chrY.fasta	chm13.20200921.withGRCh38chrY
 HG002v11-align2-chm13.20200921.withGRCh38chrY	assemblies/HG002v11/paternal/HG002-v0.11.pat.fa.gz	assemblies/HG002v11/maternal/HG002-v0.11.mat.fa.gz	diploid	male	resources/t2t-chm13.20200921.withGRCh38chrY.fasta	chm13.20200921.withGRCh38chrY
 HG00733v11-align2-chm13.20200921.withGRCh38chrY	assemblies/HG00733v11/paternal/HG00733-v0.11.hap1.fa.gz	assemblies/HG00733v11/maternal/HG00733-v0.11.hap2.fa.gz	diploid	male	resources/t2t-chm13.20200921.withGRCh38chrY.fasta	chm13.20200921.withGRCh38chrY
+HG002_HiCanu_2.1-align2-GRCh38	assemblies/GIAB-med-relevant-genes/HG002_HiCanu_2.1/human-HG002.pat.fa.gz	assemblies/GIAB-med-relevant-genes/HG002_HiCanu_2.1/human-HG002.mat.fa.gz	diploid	male	resources/GRCh38.fa	GRCh38
+HG002_HiCanu_2.1-align2-GRCh37	assemblies/GIAB-med-relevant-genes/HG002_HiCanu_2.1/human-HG002.pat.fa.gz	assemblies/GIAB-med-relevant-genes/HG002_HiCanu_2.1/human-HG002.mat.fa.gz	diploid	male	resources/GRCh37.fa	GRCh37
+HG002_chrX-align2-GRCh38	assemblies/HG002_chrX/hg002.chrX.fasta	assemblies/HG002_chrX/hg002.chrX.fasta	haploid	male	resources/GRCh38.fa	GRCh38
+HG002_chrX-align2-chm13.20200921.withGRCh38chrY	assemblies/HG002_chrX/hg002.chrX.fasta	assemblies/HG002_chrX/hg002.chrX.fasta	haploid	male	resources/t2t-chm13.20200921.withGRCh38chrY.fasta	chm13.20200921.withGRCh38chrY
+HG005_hifiasm	assemblies/HG005_hifiasm/HG005.paternal.fa.gz	assemblies/HG005_hifiasm/HG005.maternal.fa.gz	diploid	male	resources/GRCh38.fa	GRCh38		
