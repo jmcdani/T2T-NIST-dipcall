@@ -31,8 +31,8 @@ rule all:
         expand("output/{prefix}/{prefix}.hap1.bam", prefix = ASM_prefix),
         expand("output/{prefix}/{prefix}.hap2.bam", prefix = ASM_prefix),
         expand("output/{prefix}/{prefix}.dip.vcf.gz.tbi", prefix = ASM_prefix),
-        expand("output/{prefix}/{prefix}.hap1.sorted.bam.bai", prefix = ASM_prefix),
-        expand("output/{prefix}/{prefix}.hap2.sorted.bam.bai", prefix = ASM_prefix)
+        expand("output/{prefix}/{prefix}.hap1.bam.bai", prefix = ASM_prefix),
+        expand("output/{prefix}/{prefix}.hap2.bam.bai", prefix = ASM_prefix)
 
        
 ################################################################################
@@ -130,14 +130,8 @@ rule tabix:
     wrapper:
         "0.64.0/bio/tabix"
 
-rule samtools_sort:
-    input: "output/{prefix}/{prefix}.{hap}.bam"
-    output: "output/{prefix}/{prefix}.{hap}.sorted.bam"
-    wrapper:
-        "0.64.0/bio/samtools/sort"
-
 rule samtools_index:
-    input: "output/{prefix}/{prefix}.{hap}.sorted.bam"
-    output: "output/{prefix}/{prefix}.{hap}.sorted.bam.bai"
+    input: "output/{prefix}/{prefix}.{hap}.bam"
+    output: "output/{prefix}/{prefix}.{hap}.bam.bai"
     wrapper:
         "0.64.0/bio/samtools/index"
