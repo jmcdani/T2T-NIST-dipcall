@@ -1,0 +1,12 @@
+T2T Snakefile CHANGELOG
+
+Format: Gitlab commit SHA - date - changed by name
+
+674903b78f3e5f73bffbb2d54339ac42da3cfd90 - 1/25/21 - Jenny McDaniel
+	- found issue with samtools sort of .bam files.  Dipcall output appears to be sorted therefore removed sort rule and index dipcall .bam file directly.
+
+9a5dd50a8c0175acebf34d0ae5b81aa25ffc1da0 - 1/7/21 - Jenny McDaniel
+	- added sorted index files
+
+73010547e74c15221d5ab5303c9afcd56a4bb21b - 10/1/20 - Jenny McDaniel
+	- initial commit
